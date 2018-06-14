@@ -48,6 +48,7 @@
 #define UTF8_CONSOLE
 #ifdef _WIN32
 #include <io.h>
+#include <fcntl.h>
 #include <stdio.h>
 #endif
 
